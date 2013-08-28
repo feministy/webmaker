@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "All the CSS things"
+date:   2013-08-27 20:01:38
+categories: web
+---
+
+CSS is the paintbrush of the web. A lot of developers don't like CSS for various made up reasons, but there's no reason you shouldn't like it.

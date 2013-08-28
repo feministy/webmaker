@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Keep track of your changes with Git"
+date:   2013-08-27 18:01:38
+categories: basics git
+---
+
+**Pre-requisites: Command line.**
+
+*Some resources to help you with the command line:*
+
+{% for post in site.categories.command-line %}
+  * <a href="{{ post.url }}">{{ post.title }}</a>
+{% endfor %}

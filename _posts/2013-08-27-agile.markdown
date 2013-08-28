@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Agile development principles"
+date:   2013-08-27 20:01:38
+categories: bonus
+---
+
+Magic.
