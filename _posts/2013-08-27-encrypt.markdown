@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Write your own encryption program"
+date:   2013-08-27 19:01:38
+categories: ruby
+---
+
+**Pre-requisites: you know Ruby.**
+
+[JumpStart Labs Encryptor](http://tutorials.jumpstartlab.com/projects/encryptor.html)
