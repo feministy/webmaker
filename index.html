@@ -1,13 +1,132 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Web Maker &middot; Learn how to become a web developer
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <h1>Become A Web Maker.</h1>
+  <h2>With these resources and a little time,<br>you can teach yourself how to build web apps.</h2>
+
+  {% include nav.html %}
+
+  <p class="attention">
+    Web Maker is a cultivated collection of resources that are designed to take you from zero or very little knowledge about web development to someone who can develop their own web apps. All you need is a Mac (preferably up-to-date), Google Chrome, the internet, and time. What makes me qualified to help you teach yourself web development? I did it myself. <a href="/who" class="link-light">Learn more about me.</a>
+  </p>
+
+  <div class="separator">
+  </div>
+
+  <div class="section group separator">
+    <div class="col span_1_of_3">
+        <div class="step background-accent">
+          Step 1: Basics
+        </div>
+    </div>
+    <div class="col span_2_of_3">
+      <p class="description">
+        There are a lot of things you need to have a strong understanding of before diving into the actual programming. Some people would call this the boring stuff, this is the core foundation of web development. Don't skip steps here.
+      </p>
+      <ul>
+        {% for post in site.categories.basics %}
+          {% assign linkClass = "link-accent" %}
+          {% include list.html %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="section group separator">
+    <div class="col span_1_of_3">
+        <div class="step background-main-dark">
+          Step 2: Ruby
+        </div>
+    </div>
+    <div class="col span_2_of_3">
+      <p class="description">
+        Ruby is one of many languages that can be used for web development. I recommend learning Ruby because the syntax is simple, it's very flexible and incredibly powerful, and it has a great framework ready for you (Rails).
+      </p>
+      <ul>
+        {% for post in site.categories.ruby %}
+          {% assign linkClass = "link-main-dark" %}
+          {% include list.html %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="section group separator">
+    <div class="col span_1_of_3">
+        <div class="step background-dark">
+          Step 3: Web
+        </div>
+    </div>
+    <div class="col span_2_of_3">
+      <p class="description">
+        There is a lot to cover with the web, and every step is equally important. In this section, you'll learn front end development (HTML, CSS), JavaScript, and HTTP requests.
+      </p>
+      <ul>
+        {% for post in site.categories.web %}
+          {% assign linkClass = "link-dark" %}
+          {% include list.html %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="section group separator">
+    <div class="col span_1_of_3">
+        <div class="step background-main-light">
+          Step 4: Apps
+        </div>
+    </div>
+    <div class="col span_2_of_3">
+      <p class="description">
+        Bringing together everything you learned in the Web section, now you'll learn how to build and deploy apps to the web using a lightweight Ruby framework called Sinatra.
+      </p>
+      <ul>
+        {% for post in site.categories.apps %}
+          {% assign linkClass = "link-main-light" %}
+          {% include list.html %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="section group separator">
+    <div class="col span_1_of_3">
+        <div class="step background-light">
+          Step 5: Rails
+        </div>
+    </div>
+    <div class="col span_2_of_3">
+      <p class="description">
+        The grand finale (sort of). Rails is a magical framework written in Ruby that makes it easier to develop RESTful apps. You'll learn about the magic of Rails, and why it's so awesome.
+      </p>
+      <ul>
+        {% for post in site.categories.rails %}
+          {% assign linkClass = "link-light" %}
+          {% include list.html %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="section group separator">
+    <div class="col span_1_of_3">
+        <div class="step background-main-dark">
+          Bouns Round
+        </div>
+    </div>
+    <div class="col span_2_of_3">
+      <p class="description">
+        Super cool tips and tricks that will make your development life more fun, faster, or more productive. Don't go here until you've finished the previous steps. Your brain will feel mushy.
+      </p>
+      <ul>
+        {% for post in site.categories.bonus %}
+          {% assign linkClass = "link-main-dark" %}
+          {% include list.html %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>
