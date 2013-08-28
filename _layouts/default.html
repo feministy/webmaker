@@ -6,41 +6,45 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="/stylesheets/main.css">
+        <link rel="stylesheet" href="/stylesheets/helpers.css">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <!-- Grid system -->
+        <link rel="stylesheet" href="/stylesheets/2cols.css">
+        <link rel="stylesheet" href="/stylesheets/3cols.css">
+        <link rel="stylesheet" href="/stylesheets/4cols.css">
+        <link rel="stylesheet" href="/stylesheets/5cols.css">
+        <link rel="stylesheet" href="/stylesheets/6cols.css">
+        <link rel="stylesheet" href="/stylesheets/7cols.css">
+        <link rel="stylesheet" href="/stylesheets/8cols.css">
+        <link rel="stylesheet" href="/stylesheets/9cols.css">
+        <link rel="stylesheet" href="/stylesheets/10cols.css">
+        <link rel="stylesheet" href="/stylesheets/11cols.css">
+        <link rel="stylesheet" href="/stylesheets/12cols.css">
+        <link rel="stylesheet" href="/stylesheets/480.css">
+        <link rel="stylesheet" href="/stylesheets/768.css">
+        <link rel="stylesheet" href="/stylesheets/1024.css">
+        <link rel="stylesheet" href="/stylesheets/col.css">
 
     </head>
     <body>
-
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
+        <div id="container">
+          <div class="section group">
+            <div class="col span_1_of_5">
+              <!-- Empty spacer div -->
             </div>
-
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
-                </p>
-              </div>
+            <div class="col span_3_of_5">
+              {{ content }}
+            </div>
+            <div class="col span_1_of_5">
+              <!-- Empty spacer div -->
             </div>
           </div>
         </div> <!-- /container -->
 
+    <!-- Typekit -->
+    <script type="text/javascript" src="//use.typekit.net/unp2waz.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </body>
 </html>
