@@ -1,0 +1,80 @@
+@import "variables";
+
+// CORE STYLES
+body {
+  font-family: $font;
+  color: #333333;
+}
+
+p, ul, li {
+  font-size: 1em;
+  line-height: 1.75em;
+}
+
+a {
+  color: $main-light;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $main-dark;
+}
+
+#container {
+  padding-top: 100px;
+}
+
+// NAV MENU STYLES
+.nav {
+  padding: 20px;
+  ul, li {
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+  }
+  li {
+    padding-right: 20px;
+  }
+}
+
+
+// HOME PAGE SPECIFIC STYLES
+#home {
+  h1, h2 {
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(150, 150, 150, 0.5);
+  }
+  h1 {
+    font-size: 3.5em;
+    color: $main-dark;
+    font-weight: 800;
+  }
+  h2 {
+    font-size: 1.75em;
+    color: $main-light;
+    font-weight: 300;
+  }
+  .attention {
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 1.35em;
+    text-align: center;
+  }
+  .description {
+    font-weight: 300;
+    font-size: 1.2em;
+  }
+  .step {
+    font-size: 3em;
+    font-weight: 800;
+    border-radius: 140px;
+    padding: 70px 40px 70px 40px;
+    width: 160px;
+    text-align: center;
+  }
+  div.separator {
+    border-bottom: 1px dotted #e1e1e1;
+    margin-bottom: 50px;
+    padding-bottom: 35px;
+  }
+}

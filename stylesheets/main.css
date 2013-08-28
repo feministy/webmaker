@@ -1,0 +1,87 @@
+/* line 4, ../sass/main.scss */
+body {
+  font-family: "proxima nova", Arial, sans-serif;
+  color: #333333;
+}
+
+/* line 9, ../sass/main.scss */
+p, ul, li {
+  font-size: 1em;
+  line-height: 1.75em;
+}
+
+/* line 14, ../sass/main.scss */
+a {
+  color: #ebaf3c;
+  text-decoration: none;
+}
+
+/* line 19, ../sass/main.scss */
+a:hover {
+  color: #e9662c;
+}
+
+/* line 23, ../sass/main.scss */
+#container {
+  padding-top: 100px;
+}
+
+/* line 28, ../sass/main.scss */
+.nav {
+  padding: 20px;
+}
+/* line 30, ../sass/main.scss */
+.nav ul, .nav li {
+  display: inline;
+  padding: 0px;
+  margin: 0px;
+}
+/* line 35, ../sass/main.scss */
+.nav li {
+  padding-right: 20px;
+}
+
+/* line 43, ../sass/main.scss */
+#home h1, #home h2 {
+  text-align: center;
+  text-shadow: 1px 1px 5px rgba(150, 150, 150, 0.5);
+}
+/* line 47, ../sass/main.scss */
+#home h1 {
+  font-size: 3.5em;
+  color: #e9662c;
+  font-weight: 800;
+}
+/* line 52, ../sass/main.scss */
+#home h2 {
+  font-size: 1.75em;
+  color: #ebaf3c;
+  font-weight: 300;
+}
+/* line 57, ../sass/main.scss */
+#home .attention {
+  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 1.35em;
+  text-align: center;
+}
+/* line 63, ../sass/main.scss */
+#home .description {
+  font-weight: 300;
+  font-size: 1.2em;
+}
+/* line 67, ../sass/main.scss */
+#home .step {
+  font-size: 3em;
+  font-weight: 800;
+  border-radius: 140px;
+  padding: 70px 40px 70px 40px;
+  width: 160px;
+  text-align: center;
+}
+/* line 75, ../sass/main.scss */
+#home div.separator {
+  border-bottom: 1px dotted #e1e1e1;
+  margin-bottom: 50px;
+  padding-bottom: 35px;
+}

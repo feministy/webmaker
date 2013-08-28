@@ -1,0 +1,82 @@
+@import "variables";
+
+// HELPER CLASSES >>> TEXT ALIGN
+.right { text-align: right; }
+.center { text-align: center; }
+
+// HELPER CLASSES >>> FONT COLORS
+.text-main-dark { color: $main-dark; }
+.text-main-light { color: $main-light; }
+.text-accent { color: $accent; }
+.text-dark { color: $dark; }
+.text-light { color: $light; }
+
+// HELPER CLASSES >>> LINK COLORS
+a.link-main-dark { color: $main-dark; font-weight: 700; }
+a.link-main-light { color: $main-light; font-weight: 700; }
+a.link-accent { color: $accent; font-weight: 700; }
+a.link-dark { color: $dark; font-weight: 700; }
+a.link-light { color: $light; font-weight: 700; }
+
+// HELPER CLASSES >>> BACKGROUND COLORS
+.background-main-dark {
+  background-color: $main-dark;
+  color: #ffffff;
+}
+.background-main-light {
+  background-color: $main-light;
+  color: #ffffff;
+}
+.background-accent {
+  background-color: $accent;
+  color: #ffffff;
+}
+.background-dark {
+  background-color: $dark;
+  color: #ffffff;
+}
+.background-light {
+  background-color: $light;
+  color: #ffffff;
+}
+
+// HELPER CLASSES >>> LINK BACKGROUND COLORS
+a.link-background-main-dark {
+  background-color: $main-dark;
+  padding: 7px;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+a.link-background-main-light {
+  background-color: $main-light;
+  padding: 7px;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+a.link-background-accent {
+  background-color: $accent;
+  padding: 7px;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+a.link-background-dark {
+  background-color: $dark;
+  padding: 7px;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+a.link-background-light {
+  background-color: $light;
+  padding: 7px;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: 700;
+}
